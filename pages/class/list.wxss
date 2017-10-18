@@ -1,0 +1,80 @@
+/* pages/logs/index.wxss */
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width:100vw;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.fontColor{
+  color: #02C39A;
+  font-size: 28px;
+}
+.tagLeft{
+  width:90%;
+  margin-top: 15px
+}
+.contentColor{
+  line-height: 25px;
+  font-size: 18px;
+  animation-name: myfirst;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+@keyframes myfirst
+{
+0%   {color: #FE938C;}
+25%  {color: #E6B89C;}
+50%  {color: #EAD2AC;}
+75%  {color: #9CAFB7;}
+100% {color: #4281A4;}
+}
+.indexImgList{
+  width:160rpx;
+height:160rpx;
+border-radius:50%;
+margin-right:40rpx;
+float:left;
+
+
+}
+.indexNameList{
+display:block;
+float:left;
+margin-top:18rpx;
+overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap;
+width:470rpx;
+
+}
+.indexTagLiat{
+display:block;
+float:left;
+margin-top:30rpx;
+overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap;
+width:470rpx;
+font-size:30rpx;
+color:RGB(156,175,183);
+
+
+
+}
+.spraLine{
+  float:left;
+width:450rpx;
+border-top:1px solid #efefef;
+margin-top:50rpx;
+
+
+}

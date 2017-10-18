@@ -1,0 +1,27 @@
+.log-list11{
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 5%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.big_c{
+  width: 25vw;
+  height: 25vw;
+  border-radius:50%; 
+  position: relative;
+  margin-top: 10px;
+}
+.small_c{
+  width: 20vw;
+  height: 20vw;
+  font-size:35rpx; 
+  border-radius:50%; 
+  position: absolute;
+  top: 2.5vw;
+  left: 2.5vw;
+  text-align: center;
+  line-height: 20vw;
+  overflow: hidden;
+}

@@ -1,0 +1,190 @@
+/**index.wxss**/
+
+.anim {
+  animation: play 1s ease-out;
+}
+
+@keyframes play {
+  0% {
+    transform: rotateZ(0deg);
+    /*
+        transform:rotateX(0deg);
+        transform:rotate(0deg);
+        transform:rotate(0deg);
+        */
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+    /*
+        transform:rotateX(360deg);
+        transform:rotate(360deg);
+        transform:rotate(-360deg);
+        */
+  }
+}
+
+.searchImg {
+  float: left;
+  width: 5.9vw;
+  height: 5.5vh;
+  margin-top: 21px;
+  padding-left: 10px;
+  margin-left: 5vw;
+}
+
+.shack {
+  height: 350rpx;
+  width: 350rpx;
+  /* background-color: #02C39A; */
+  margin-left: -175rpx;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+
+.guo {
+  height: 350rpx;
+  width: 350rpx;
+}
+
+.food_in {
+  height: 205rpx;
+  width: 205rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 69.5rpx;
+  left: 63.4rpx;
+}
+
+.food_name {
+  height: 90rpx;
+  width: 100%;
+  position: absolute;
+  top: 62%;
+  text-align: center;
+  font-size: 42rpx;
+  color: #474a6e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.food_tag {
+  height: 90rpx;
+  width: 90%;
+  left: 5%;
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.searchInput {
+  width: 75vw;
+  height: 5.5vh;
+  color: #05668d;
+  margin-top: 20px;
+  float: left;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 1.5vw;
+  text-align: center;
+}
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100vw;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+
+.log-item {
+  margin: 10rpx;
+}
+
+.fontColor {
+  color: #02c39a;
+  font-size: 28px;
+}
+
+.tagLeft {
+  width: 90%;
+  margin-top: 15px;
+}
+
+.contentColor {
+  line-height: 25px;
+  font-size: 18px;
+  animation-name: myfirst;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+@keyframes myfirst {
+  0% {
+    color: #fe938c;
+  }
+
+  25% {
+    color: #e6b89c;
+  }
+
+  50% {
+    color: #ead2ac;
+  }
+
+  75% {
+    color: #9cafb7;
+  }
+
+  100% {
+    color: #4281a4;
+  }
+}
+
+.indexImgList {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin-right: 40rpx;
+  float: left;
+}
+
+.indexNameList {
+  display: block;
+  float: left;
+  margin-top: 18rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 470rpx;
+}
+
+.indexTagLiat {
+  display: block;
+  float: left;
+  margin-top: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 470rpx;
+  font-size: 30rpx;
+  color: RGB(156, 175, 183);
+}
+
+.spraLine {
+  float: left;
+  width: 450rpx;
+  border-top: 1px solid #efefef;
+  margin-top: 50rpx;
+}

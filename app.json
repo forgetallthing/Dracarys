@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/class/logs",
+    "pages/home/home",
+    "pages/index/list",
+    "pages/class/list",
+    "pages/index/detailMethod"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#84DCC6",
+    "navigationBarTitleText": "Dracarys美食记",
+    "navigationBarTextStyle": "#ffffff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "摇摇菜",
+        "iconPath": "pages/img/yg.png",
+        "selectedIconPath": "pages/img/yc.png"
+      },
+      {
+        "pagePath": "pages/class/logs",
+        "text": "分类菜",
+        "iconPath": "pages/img/fc.png",
+        "selectedIconPath": "pages/img/fg.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的菜",
+        "iconPath": "pages/img/home_gray.png",
+        "selectedIconPath": "pages/img/home.png"
+      }
+    ],
+    "backgroundColor": "#F7FCF5",
+    "borderStyle": "white",
+    "selectedColor": "#70C1B3",
+    "color": "#bfbfbf",
+    "position": "bottom"
+  }
+}

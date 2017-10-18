@@ -1,0 +1,13 @@
+<!--pages/logs/index.wxml-->
+<view class="container  log-list">
+ <scroll-view scroll-y style="height: {{scrollHeight}}px;margin-top:20px;" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+   <view  style="margin-bottom:20px;height:90px" wx:for="{{vegList}}" wx:for-item="list" wx:key="*this">
+      <view id="{{list.id}}" bindtap="bindList">
+        <image class="indexImgList" src="{{list.pic}}" mode="aspectFit"></image>
+        <text class="indexNameList">{{list.name}}</text>
+        <text class="indexTagLiat">功效：{{list.tag}}</text>
+        <text class="spraLine"></text>
+      </view> 
+   </view>
+ </scroll-view>
+</view>

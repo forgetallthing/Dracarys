@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view class="container log-list11" wx:if="{{state == 1}}">
+  <view wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+    <view class='big_c' style="background-color: {{log.big_c}}">
+      <view class='small_c' style='background-color: {{log.small_c}}'>
+        <text id="{{log.classid}}" class="log-item11" bindtap="bindClassicalTap">{{log.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>

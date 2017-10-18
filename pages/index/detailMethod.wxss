@@ -1,0 +1,56 @@
+/* detailMethod.wxss */
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  width:100vw;
+}
+.log-item {
+  margin: 10rpx;
+}
+.fontColor{
+  color: #02C39A;
+  font-size: 22px;
+  margin-bottom:12px;
+}
+.tagLeft{
+  width:90%;
+  margin-top: 15px
+}
+.contentColor{
+  line-height: 25px;
+  font-size: 16px;
+  animation-name: myfirst;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+@keyframes myfirst
+{
+0%   {color: #FE938C;}
+25%  {color: #E6B89C;}
+50%  {color: #EAD2AC;}
+75%  {color: #9CAFB7;}
+100% {color: #4281A4;}
+}
+.collect{
+  width:100%;
+  height:60rpx;
+  margin-bottom:8px;
+}
+.collect image{
+  width:42rpx;
+  height:42rpx;
+  display: block;
+  float: left;
+}
+.collect text{
+  display: block;  
+  float: left; 
+  margin-left: 420rpx;
+  color: #8a8a8a;
+  font-size: 16px;
+}

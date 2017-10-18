@@ -1,0 +1,19 @@
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <image class='up_img' src='../img/dannyBoy.png'> </image>
+  </picker>
+</view>
+<view class="list_init">
+  <view class="list_init_up"></view>
+  <view wx:key="unique" bindtap="bindList" id="{{item.id}}" class="list" wx:for="{{list}}">
+    <image class='list_img' src='{{item.pic}}'> </image>
+    <view class="list_text">
+      <text class="text1">烹饪时间：{{item.cookingtime}}</text>
+      <text class="text2">{{item.name}}</text>
+      <text class="text3">{{item.tag}}</text>
+    </view>
+  </view>
+</view>
+<view style='display:{{show}};' class="none">
+  空空如也~ 快去收藏佳肴吧
+</view>

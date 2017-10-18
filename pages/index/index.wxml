@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="section">
+  <image bindtap="bindButtonTap" class="searchImg" src='../img/search.png'></image>
+  <input class="searchInput" bindtap="bindButtonTap" placeholder="来搜菜吧~" disabled='true' />
+</view>
+<view bindtap='to_food' class='shack'>
+    <image id='guo' class='guo {{rotate}}' src='../img/guo.png'></image>
+    <image class='food_in' src='{{pic}}' ></image>
+</view>
+<view bindtap='to_food' class='food_name'>{{food_name}}</view>
+<view class='food_tag'>{{food_tag}}</view>
