@@ -18,5 +18,5 @@
 ![img](https://github.com/forgetallthing/Dracarys/blob/master/read_img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20171019140618.png)
 ![img](https://github.com/forgetallthing/Dracarys/blob/master/read_img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20171019140621.png)
 ![img](https://github.com/forgetallthing/Dracarys/blob/master/read_img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20171019140628.png)
-![img](https://github.com/forgetallthing/Dracarys/blob/master/read_img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20171019141911.jpg)
+![img](https://github.com/forgetallthing/Dracarys/blob/master/read_img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20171019140556.png)
 ![img](https://github.com/forgetallthing/Dracarys/blob/master/read_img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20171019140625.png)
