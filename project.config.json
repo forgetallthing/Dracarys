@@ -7,7 +7,7 @@
 		"minified": true
 	},
 	"compileType": "weapp",
-	"libVersion": "1.5.4",
+	"libVersion": "1.6.0",
 	"appid": "touristappid",
 	"projectname": "longfire2",
 	"condition": {
@@ -27,10 +27,10 @@
 					"query": ""
 				},
 				{
-					"id": -1,
+					"id": 2,
 					"name": "home",
 					"pathName": "pages/index/detailMethod",
-					"query": "id=2"
+					"query": "id=58"
 				}
 			]
 		},

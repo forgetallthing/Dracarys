@@ -1,7 +1,5 @@
 /* detailMethod.wxss */
 .log-list {
-  display: flex;
-  flex-direction: column;
   padding: 40rpx;
   width:100vw;
 }
@@ -53,4 +51,28 @@
   margin-left: 420rpx;
   color: #8a8a8a;
   font-size: 16px;
+}
+.cailiao{
+  height: 50rpx;
+  width: 750rpx;
+  text-align: center;
+  display: block;
+}
+.cailiao2{
+  min-height: 40rpx;
+  padding-left:40rpx;
+  padding-right:40rpx;
+  display: block;
+  text-align: center;
+}
+.userinfo-avatar1{
+  height: 550rpx;
+  width: 650rpx;
+  margin-left: 50rpx;
+}
+.userinfo-avatar{
+  width: 550rpx;
+}
+.bloc{
+  position: relative;
 }

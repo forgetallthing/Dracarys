@@ -1,6 +1,5 @@
 <!--detailMethod.wxml-->
 <view class="container  log-list">
-  <block>
     <text class="log-item fontColor">{{vegMethod.name}}</text>
     <view bindtap="collect" class='collect'>
       <text>收藏：</text><image src='{{co_img}}'></image>
@@ -12,18 +11,17 @@
     <text class="tagLeft">烹饪时间：{{vegMethod.cookingtime}}</text>
     <text class="tagLeft">用餐人数：{{vegMethod.peoplenum}}</text>
     <text class="tagLeft">制作材料：</text>
-    <view class="container log-list">
-      <block wx:for="{{vegMethod.material}}" wx:for-item="material" wx:key="*this">
-        <text class="log-item">{{material.mname}}：{{material.amount}}</text>
+    <view class="log-list">
+      <block class="bloc" wx:for="{{vegMethod.material}}" wx:for-item="material" wx:key="*this">
+        <text class="log-item cailiao">{{material.mname}}：{{material.amount}}</text>
       </block>
     </view>
 
     <text class="tagLeft">制作步骤：</text>
-    <view class="container log-list">
-      <block wx:for="{{vegMethod.process}}" wx:for-item="processs" wx:key="*this">
-        <text class="log-item">{{processs.pcontent}}</text>
-        <image class="userinfo-avatar" src="{{processs.pic}}" mode="aspectFit"></image>
+    <view class="log-list">
+      <block class="bloc" wx:for="{{vegMethod.process}}" wx:for-item="processs" wx:key="*this">
+        <text class="log-item cailiao2">{{processs.pcontent}}</text>
+        <image class="userinfo-avatar1" src="{{processs.pic}}" mode="aspectFit"></image>
       </block>
     </view>
-  </block>
 </view>
